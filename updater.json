@@ -1,10 +1,10 @@
 
 {
     "UserBG": {
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "default": {
-        "minimumDiscordVersion": 1467,
+        "minimumDiscordVersion": 1524,
         "version": "1.0.0",
         "build": "https://raw.githubusercontent.com/aa-aliucord/plugins/builds/%s.apk"
     }
