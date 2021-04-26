@@ -48,7 +48,7 @@ public class UserBG extends Plugin {
         Manifest manifest = new Manifest();
         manifest.authors = new Manifest.Author[]{ new Manifest.Author("AAGaming", 373833473091436546L) };
         manifest.description = "Adds backgrounds to profiles.";
-        manifest.version = "1.0.1";
+        manifest.version = "1.0.2";
         manifest.updateUrl = "https://raw.githubusercontent.com/aa-aliucord/plugins/builds/updater.json";
         return manifest;
     }
@@ -104,7 +104,7 @@ public class UserBG extends Plugin {
                                     gif = new GifAnimationDrawable(bStream);
                                     drawable = gif;
                                 } else {
-                                    BitmapDrawable bitmap = new BitmapDrawable(ctx.getResources(), stream);
+                                    BitmapDrawable bitmap = new BitmapDrawable(ctx.getResources(), bStream);
                                     bitmap.setGravity(Gravity.CENTER_HORIZONTAL);
                                     drawable = bitmap;
                                     gif = null;
